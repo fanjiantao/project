@@ -603,7 +603,7 @@
 					<configuration>
 						<toolchains>
 							<jdk>
-								<version>1.5</version>
+								<version>1.7</version>
 								<vendor>sun</vendor>
 							</jdk>
 						</toolchains>
