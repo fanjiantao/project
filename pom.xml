@@ -592,6 +592,7 @@
 						<target>${jdk.version}</target>
 						<showDeprecation>true</showDeprecation>
 						<showWarnings>true</showWarnings>
+						<fork>true</fork>
 					</configuration>
 				</plugin>
 				<plugin>
