@@ -51,7 +51,13 @@
 		<profile>
 			<activation>
 				<activeByDefault>true</activeByDefault>
+				<jdk>${jdk.version}</jdk>  
 			</activation>
+			<properties>  
+		        <maven.compiler.source>${jdk.version}</maven.compiler.source>  
+		        <maven.compiler.target>${jdk.version}</maven.compiler.target>  
+		        <maven.compiler.compilerVersion>${jdk.version}</maven.compiler.compilerVersion>  
+		    </properties>
 			<id>nexus</id>
 			<distributionManagement>
 				<snapshotRepository>
