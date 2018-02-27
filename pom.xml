@@ -45,7 +45,7 @@
 	<!-- </issueManagement> -->
 	<ciManagement>
 		<system>Jenkins</system>
-		<url>http://192.168.31.128:8082</url>
+		<url>http://192.168.67.128:8082</url>
 	</ciManagement>
 	<profiles>
 		<profile>
@@ -56,11 +56,11 @@
 			<distributionManagement>
 				<snapshotRepository>
 					<id>nexus</id>
-					<url>http://192.168.31.128:8081/nexus/content/repositories/snapshots/</url>
+					<url>http://192.168.67.128:8081/nexus/content/repositories/snapshots/</url>
 				</snapshotRepository>
 				<repository>
 					<id>nexus</id>
-					<url>http://192.168.31.128:8081/nexus/content/repositories/releases/</url>
+					<url>http://192.168.67.128:8081/nexus/content/repositories/releases/</url>
 				</repository>
 			</distributionManagement>
 		</profile>
